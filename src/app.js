@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   res.render("index", {
     ip: req.ip.split(":")[3],
     title: "Weather app",
-    fullName: "Andrew Mead",
+    fullName: "h ghayebi",
   });
 });
 
@@ -33,7 +33,7 @@ app.get("/about", (req, res) => {
   res.render("about", {
     ip: req.ip.split(":")[3],
     title: "About Me",
-    fullName: "Andrew Mead",
+    fullName: "h ghayebi",
   });
 });
 
@@ -41,7 +41,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     ip: req.ip.split(":")[3],
     title: "Help",
-    fullName: "Andrew Mead",
+    fullName: "h ghayebi",
     helpText: "This is some helpful text",
   });
 });
@@ -92,7 +92,7 @@ app.get("/help/*", (req, res) => {
   res.render("404.hbs", {
     title: "404",
     errorMessage: "Help article not found",
-    fullName: "Andrew Mead",
+    fullName: "h ghayebi",
   });
 });
 
@@ -100,7 +100,7 @@ app.get("*", (req, res) => {
   res.render("404.hbs", {
     title: "404",
     errorMessage: "Page not found",
-    fullName: "Andrew Mead",
+    fullName: "h ghayebi",
   });
 });
 
