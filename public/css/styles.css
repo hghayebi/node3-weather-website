@@ -1,7 +1,5 @@
 body {
-  font-family: "Roboto";
-  /* font-weight: 700;
-  font-style: normal; */
+  font-family: 'Roboto', sans-serif;
 
   color: #333333;
   max-width: 650px;
